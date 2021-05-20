@@ -1,0 +1,45 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="f" uri="http://www.springframework.org/tags/form"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%><
+<!DOCTYPE html>
+<html>
+<head>
+<title>MFPE Pharma</title>
+<link rel="icon" type="image/ico" href="./images/pharmacy.png" />
+<link rel="stylesheet" type="text/css" href="/style/style.css">
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<style type="text/css">
+form {
+	background-color: skyblue;
+	width: 270px;
+	height: 200 px;
+	border-style: solid;
+	border-color: blue;
+	margin-top: 120px;
+	padding: 10px;
+}
+</style>
+</head>
+<body>
+	<header>
+		<span class="header-title">Pharmacy Medicine Supply</span> <img
+			class="header-logo" src="/images/pharmacy1.png" alt="pharmacy logo"></img>
+		<nav>
+			<a class="nav-link" href="/user/schedule">MR Schedule</a> <a
+				class="nav-link" href="/user/medicineDemand">Place an Order</a> <a
+				class="nav-link" href="/user/medicineStock">Check Stock</a> <a
+				class="nav-link" href="/user/showMedicineSupply">Placed Orders</a> <a
+				class="nav-link" href="/user/showMedicineDemand">Demand</a> <a
+				class="nav-link" href="/user/logout">Logout</a>
+		</nav>
+	</header>
